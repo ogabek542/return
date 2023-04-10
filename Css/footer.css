@@ -1,0 +1,152 @@
+.lastfooter{
+    background-color: #F1F1F1;
+    background-image: url("/Images/af.png");
+    background-position: left ;
+    background-repeat: no-repeat;
+    height: 438px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 80px 72px;
+
+}
+/* left side styles */
+.footone{
+    width: 50%;
+    padding-bottom: 110px;
+
+}
+.email{
+    width: 460px;
+    display: flex;
+    align-items: center;
+}
+.email input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #C4C4C4;
+    outline: none;
+    margin-right: -15px !important;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+.email  a {
+    font-size: 14px;
+    color: #000;
+    padding-right: 10px;
+}
+
+.footheader {
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.08px;
+    font-family: var(--work-sans);
+    letter-spacing: 2.5px;
+}
+.foottwo, .footthree{
+    width: 50%;
+}
+
+.footicons a{
+     color: #8F8F8F;
+     font-size: 12px;
+    
+}
+.footicons  i {
+    font-size: 12px;
+    margin: 10px 5px;
+}
+.headm1 p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.08px;
+    font-family: var(--work-sans);
+
+}
+.headm2 p{
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.08px;
+    font-family: var(--work-sans);
+
+}
+
+.footnone{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0;
+    text-align:left
+}
+.tags p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--open-sans);
+    color: #7e7e7e;
+    line-height: 23.45px;
+}
+.lasttext{
+    text-align: center;
+    margin-top: -30px;
+}
+.lasttext p{
+    font-weight: 300;
+    font-size: 12px;
+    font-family: var(--open-sans);
+    line-height: 20.1px;
+    color: #C4C4C4;
+}
+@media (max-width:375.98px){
+
+    .lastfooter{
+        background-image: url("/Images/af.png");
+        background-position:bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 712px;
+        width: 375px;
+    }
+    .last{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        padding-top: 10px;
+        padding-left: 12px;
+    }
+    /* left side mobile styles */
+    .footone{
+        width: 100%;
+        padding: 0;
+    }
+    .email{
+        width: 95%;
+
+    }
+    .email input{
+        width: 100%;
+    }
+  
+    .foottwo, .footthree{
+        width: 100%;
+        margin-top: 35px;
+    }
+   
+    .footnone{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .lasttext p{
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+}

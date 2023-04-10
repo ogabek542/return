@@ -1,0 +1,88 @@
+.navbar_section{
+    width: 1440px;
+    height: 92px;
+}
+.nav-head{
+    height: 40px;
+    background-color: var(--aside-background);
+}
+.nav-head h6{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 0px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 16%;
+    font-family: "Oswald";
+}
+.navbootom{
+    width: 1440px;
+    height: 52px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 15px !important;
+}
+
+.navleft h1{
+    text-transform: uppercase;
+    color: #000;
+}
+.navcenter {
+    display: flex;
+    align-items: center;
+    gap:30px; 
+    width: 30%;
+    transition: 0.5s;
+
+}
+.navcenter h6:hover{
+    color: #c4c4c4;
+    transition: 0.5s;
+}
+.navcenter h6 {
+    color: #000000 ;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    letter-spacing: 17.5% ;
+}
+.navicons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.lefticon{
+    display: none;
+}
+.navmenu{
+    display: none;
+}
+
+@media (max-Width:375.98px) {
+    .navcenter{
+        display: none;
+    }
+    .icon1{
+        display: none;
+    }
+    .lefticon{
+        display: inline-block;
+    }
+    .navbootom{
+        width: 95%;
+    }
+    .navbar_section{
+        width: 375px;
+    }
+    .navmenu .show {
+        display: block; 
+    }
+    /* .navmenu{
+        display: block;
+    } */
+}
